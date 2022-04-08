@@ -30,7 +30,9 @@ if __name__ == '__main__':
                             fichier=open('state_tools_1.txt','w')#pour un fichier texte, sinon, mettre 'wb' au lieu de "w"
                             fichier.write('Outil Disponible')#on peut maintenant écrire
                             fichier.close()#ne pas oublier pour libérer l'accès.
-                            #TROUVER MOYEN D'EFFACER LE CONTENU DU FICHIER state_d_tools_1.txt et state_tools_1.txt
+                            fichier=open('state_d_tools_1.txt','w')#pour un fichier texte, sinon, mettre 'wb' au lieu de "w"
+                            fichier.write(" ")
+                            fichier.close()#ne pas oublier pour libérer l'accès.
                         id1= identification[:-2]
                         if id1=="1x3":
                             cont1=content[4:]

@@ -11,5 +11,6 @@
 ``1x2 <dd/mm/yy>`` : Date de Retour <br/>
 ``1x3 <dd>`` : Combien de jour restant<br/>
  <br/>
-**Injection_SQL** <br/>
-``'OR 1=1 OR 1='`` : Outil disponible <br/>
+**SQL** <br/>
+``'OR 1=1 OR 1='`` : Injection SQL <br/>
+``INSERT INTO table (colonne1, colonne2) VALUES ('valeur1', 'valeur2')`` : Inserer des valeurs <br/>

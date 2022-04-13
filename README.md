@@ -14,3 +14,6 @@
 **SQL** <br/>
 ``'OR 1=1 OR 1='`` : Injection SQL <br/>
 ``INSERT INTO table (colonne1, colonne2) VALUES ('valeur1', 'valeur2')`` : Inserer des valeurs <br/>
+``UPDATE table SET colonneN="Valeur à changer" WHERE id=1;`` : changer les valeurs pour l'id 1 <br/>
+
+

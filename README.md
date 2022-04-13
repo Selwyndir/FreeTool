@@ -11,16 +11,12 @@
 ``1x2 <dd/mm/yy>`` : Date de Retour <br/>
 ``1x3 <dd>`` : Combien de jour restant<br/>
 
-**Tools_System** <br/>
-``1x1`` : Outil disponible <br/>
-``1x2 <dd/mm/yy>`` : Date de Retour <br/>
-``1x3 <dd>`` : Combien de jour restant<br/>
 
 
 
 
 
 <br/>
-***Injection SQL***
+**Injection SQL**
 <br/>
 ``'OR 1=1 OR 1='``<br/>

@@ -16,12 +16,15 @@ Troisième Partie du Système: The Freetool Project <br/>
 Mettre en œuvre un procédé permettant la réception des données sans fil (accès local / emprunt  outils) , de construire une DataBase et une interface WEB afin de de contrôler via le web l’état du magasin (flux  vidéo, présence personnes, matériel disponible / emprunté).  <br/>
 <br/> 
 Codage Logs <br/>
+
 **Access System** <br/>
  ``0x1`` : Porte Ouverte <br/>
  ``0x2`` : Porte Fermée <br/>
  ``0x3`` : Intru dans l'abri <br/>
  ``0x4`` : Utilisateur dans l'abri <br/>
+ 
  <br/>
+ 
  **Tools_System** <br/>
  ``1x1`` : Outil disponible <br/>
  ``1x2 <dd/mm/yy>`` : Date de Retour <br/>
@@ -29,11 +32,11 @@ Codage Logs <br/>
  <br/>
  <br/>
  Quelques commandes SQL utiles :<br/>
+ 
  ``INSERT INTO table (colonne1, colonne2) VALUES ('valeur1', 'valeur2')`` : Inserer des valeurs <br/>
  ``UPDATE table SET colonneN="Valeur à changer" WHERE id=1;`` : changer les valeurs pour l'id 1 <br/>
  <br/>
- <br/>
- <br/>
  Partie Hacking : <br/>
+ 
  ``'OR 1=1 OR 1='`` ou ``'OR 1=1 #'``: Injection SQL <br/>
  Site de Phishing dans le dossier: The_Freetool_Project_Phishing

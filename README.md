@@ -1,7 +1,7 @@
 # FreeTool
 <br/>
 <br/>
-**Problematique du Projet : ** <br/>
+**Problematique** du Projet : <br/>
 Une association souhaite mutualiser les outils de jardinage et de bricolage pour les particuliers. <br/>
 L’accès au local est réservé aux membres et aux adhérents de l’association, l’argent des cotisations permet de financer l’entretien et l’achat des nouveaux équipements.<br/>
 <br/>
